@@ -23,10 +23,10 @@ export default function AuthContextProvider(props) {
         if (token === "true") {
             const user = JSON.parse(localStorage.getItem("User"))
             dispatch({ type: "SET_LOGGED_IN", payload: { state } })
-            setTimeout(() => {
-                setIsAppLoading(false) 
-            }, 3000)
         }
+        setTimeout(() => {
+            setIsAppLoading(false) 
+        }, 2000)   
     }, [])
 
     return (
