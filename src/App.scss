@@ -1,0 +1,90 @@
+@import './scss/boostrap';
+@import './scss/sreenLoader';
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.img1 {
+    background-image: url(../src/assets/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.img2 {
+    min-height: 400px;
+    width: 100%;
+}
+
+.btn1 {
+    height: 40px;
+    border-color: red;
+    background: white;
+}
+
+.btn2 {
+    height: 40px;
+    border-color: rgb(86, 86, 250);
+    background: white;
+}
+
+.hr-lines:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+}
+
+.hr-lines {
+    position: relative;
+    max-width: 500px;
+    margin: 50px;
+    text-align: center;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .hr-lines:after {
+        width: 89px;
+        right: -20px;
+    }
+
+    .hr-lines:before {
+        width: 89px;
+        left: -18px;
+    }
+}
+
+header{
+    background: #7F00FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.statement {
+    border: 1px solid
+}
