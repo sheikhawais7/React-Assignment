@@ -13,7 +13,7 @@ export default function Navfooter() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <p className="mb-0 text-center text-white">Copyright&copy; {year}.Made By <Link to="awais-portfolio.surge.sh" className='text-decoration-none text-white'>Muhammad Awais Mehboob</Link></p>
+                            <p className="mb-0 text-center text-white">Copyright&copy; {year}.Made By <Link to="awais-portfolio1.vecel.app" className='text-decoration-none text-white'>Muhammad Awais Mehboob</Link></p>
                         </div>
                     </div>
                 </div>
